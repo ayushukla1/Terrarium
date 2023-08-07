@@ -8,19 +8,16 @@ h1 {
 }
 
 #left-container {
-	background-color: #eee;
-	width: 15%;
 	left: 0px;
-	top: 0px;
-	position: absolute;
-	height: 100%;
-	padding: 10px;
 }
 
 #right-container {
+	right: 0px;
+}
+
+.container {
 	background-color: #eee;
 	width: 15%;
-	right: 0px;
 	top: 0px;
 	position: absolute;
 	height: 100%;
@@ -39,6 +36,8 @@ h1 {
 	max-height: 150%;
 	z-index: 2;
 }
+
+/*https://codepen.io/Rotarepmi/pen/rjpNZY*/
 
 .jar-walls {
 	height: 80%;
@@ -85,30 +84,22 @@ h1 {
 	z-index: -1;
 }
 
-.jar-glossy-short {
-    width: 3%;
-    height: 4%;
-    background: #9cb5b2;
-    border-radius: 4rem;
-    position: relative;
-    top:32%;
-    left: 5%;
-    z-index: 3;
-    opacity:1;
-}
-
 .jar-glossy-long {
-    width: 3%;
-    height: 20%;
-    background: #9cb5b2;
-    border-radius: 4rem;
-    position: relative;
-    top:60%;
-    left: 5%;
-    z-index: 3;
-    opacity:0.7;
+	width: 3%;
+	height: 20%;
+	border-radius: 2rem;
+	background: #ddfbff;
+	position: absolute;
+	bottom: 20%;
+	left: 5%;
 }
 
-
-
-
+.jar-glossy-short {
+	width: 3%;
+	height: 5%;
+	border-radius: 2rem;
+	background: #ddfbff;
+	position: absolute;
+	bottom: 45%;
+	left: 5%;
+}
